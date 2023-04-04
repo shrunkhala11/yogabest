@@ -69,8 +69,24 @@
   border: 2px solid rgb(221, 119, 173) ;
   background-color: rgb(249, 232, 244);
 }
+.flowdetail{
+  margin-top: 400px;
+}
+.flowdetail .d-flex{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.trainelecture{
+  height:90px;
+  width: 150px;
+  border-radius: 25px;
+  background-color: rgb(234, 118, 180);
+  position: absolute;
+  top:240px;
+  margin-left:30px;
+}
 
-    
+
 }
 @media (max-width:767px){
     .col-md-6 {
@@ -123,8 +139,20 @@ margin-top:3px;
   font-size:11px;
  margin: 0;
 }
-  
-  
+.flowdetail .d-flex{
+ margin:10px;  
+}
+.trainelecture{
+  height: 90px;
+  width: 200px;
+  border-radius: 25px;
+  background-color: rgb(234, 118, 180);
+  position: absolute;
+  top:240px;
+  margin-left:40px;
+}
+
+
 }
 @media (max-width:350px){
 
