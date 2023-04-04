@@ -30,6 +30,9 @@ body{
     font-size: 100%;
     font-weight: 400;
 }
+.top-banner{
+    height: 700px;
+}
 header>.navbar{
     position: fixed;
     width: 100%;
@@ -91,20 +94,72 @@ header>.navbar{
    border: unset;
    box-shadow: none;
 }
-/* //infocard */
-.infocard .heading{
-   display:flexbox;
-   
+/* //cards section */
+.cards{
+    background-color: rgb(240, 239, 239);
 }
-.infoicon{
-    height: 80px;
-    width: 80px;
-    float:left;
-    border-radius: 100%;
-   background-color: rgb(215, 252, 160);
+.card .cardicon{
+    height:65px;
+    width: 65px;
+    border-radius: 100px;
+    background-color: rgb(247, 199, 224);
 }
-.infohead{
-    height: 80px;
-    width: 80px;
-    float:right;
+.card .cardicon img{
+    color:rgb(247, 199, 224);
+}
+.card .cardicon:hover{
+    background-color:rgb(225, 143, 187);
+}
+.cradhead span{
+    font-size: 24px;
+}
+/* //about session */
+.about .aboutdetails{
+    padding-top: 90px;
+}
+.aboutdetails .span{
+    color:rgb(221, 119, 173);
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+.aboutdetails .h1{   
+    font-family: 'Oswald', sans-serif;
+}
+.aboutdetails .para{
+    color: rgb(179, 176, 176);
+}
+.boxvedio{
+    height: 120px;
+    width: 160px;
+    background-image: url("../img/yoga1.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.aboutdetails .col-7{
+    font-size: 20px;
+}
+/* //aboutsession */
+.aboutsection .span{
+    color:rgb(221, 119, 173);
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+.aboutsection .h2{   
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+.aboutsection .box2{
+    height: 200px;
+}
+.aboutsection .div1{
+    height: 100px;
+    width: 110px;
+    border-radius: 100px;
+    border: 2px solid rgb(221, 119, 173) ;
+    background-color: rgb(249, 232, 244);
+}
+.aboutsection .div1:hover{
+    /* background-color: rgb(243, 213, 234); */
+    background-color:white;
 }

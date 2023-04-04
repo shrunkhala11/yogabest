@@ -1,4 +1,6 @@
 @media (max-width:1024px){
+  
+  
    
 }
 @media (max-width:991px){
@@ -45,6 +47,30 @@
     #home .info{
         font-size:14px;
     }
+    .cradhead span{
+      font-size:13px;
+      color: black;
+      font-variant: 400px;
+  }
+  .boxvedio{
+    height:90px;
+    width: 90px;
+    background-image: url("../img/yoga1.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.aboutdetails .col-7{
+    font-size: 14px;
+}
+.aboutsection .div1{
+  height: 100px;
+  width: 110px;
+  border-radius: 100px;
+  border: 2px solid rgb(221, 119, 173) ;
+  background-color: rgb(249, 232, 244);
+}
+
+    
 }
 @media (max-width:767px){
     .col-md-6 {
@@ -69,6 +95,36 @@
     #home .info{
         font-size:14px;
     }
+    .cradhead span{
+      font-size:18px;
+  }
+  .imgyoga{
+    margin: 0;
+    width:180px;
+    height: 400px;
+  }
+  .aboutsection .div1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid rgb(221, 119, 173) ;
+    background-color: rgb(249, 232, 244);
+}
+.aboutsection .box2{
+height:200px;
+margin-top:3px;
+}
+.aboutsection .div2 .h5{
+  font-size:16px;
+  margin: 0;
+  width:120px;
+}
+.aboutsection .div2 p{
+  font-size:11px;
+ margin: 0;
+}
+  
+  
 }
 @media (max-width:350px){
 
