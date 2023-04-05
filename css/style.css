@@ -189,7 +189,7 @@ header>.navbar{
 }
 /* //trainer */
 .trainer{
-    height: 280px;
+    height: 1150px;
     width: 100%;
     display: block;
 }
@@ -216,4 +216,83 @@ header>.navbar{
 }
 .trainelecture .fa-user:hover{
     color:white
+}
+.textimonial{
+    position:relative;
+    background-color: rgb(233, 233, 233);
+}
+.carosalpage{
+    background-color:rgb(234, 118, 180) ;
+}
+.imgdflex{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: rgb(239, 239, 239);
+}
+.imgdflex:hover{
+    background-color: rgb(234, 118, 180);
+}
+.carosalimg2{
+    height: 90px;
+    width: 90px;
+    background-image: url("../img/mana-1.jpg");
+    background-size: cover;
+    border-radius: 100px;
+}
+.carosalimg1{
+    height: 90px;
+    width: 90px;
+    background-image: url("../img/m-2.jpg");
+    background-size: cover;
+    border-radius: 100px;
+}
+.textspan{
+    color:rgb(221, 119, 173);
+    font-size: 20px;
+    font-family: 'Caveat', cursive;   
+}
+/* //sheudle */
+.shedulehead{
+    color:rgb(221, 119, 173);
+    font-size: 20px;
+    font-family: 'Caveat', cursive; 
+}
+.table thead th {
+    border: none;
+    padding: 30px;
+    font-size: 16px;
+    color: #141b25;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.table tbody td {
+    padding: 20px;
+    font-size: 14px;
+    background: #fff;
+    vertical-align: middle;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.fa-close{
+    color: rgb(167, 166, 166);
+}
+.table tbody td.bg-color {
+    background: whitesmoke;
+}
+.textcolor{
+    color:rgb(234, 118, 180);
+}
+.yogatartext{
+    color:rgb(221, 119, 173);
+    font-size: 20px;
+    font-family: 'Caveat', cursive; 
+}
+.aicons{
+    border-radius: 100px;
+    background-color: rgb(234, 118, 180);
 }
