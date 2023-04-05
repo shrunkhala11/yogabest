@@ -253,6 +253,10 @@ header>.navbar{
     font-family: 'Caveat', cursive;   
 }
 /* //sheudle */
+.shedules{
+    position: relative;
+    top:10px;
+}
 .shedulehead{
     color:rgb(221, 119, 173);
     font-size: 20px;
