@@ -140,7 +140,7 @@ header>.navbar{
 }
 /* //aboutsession */
 .aboutsection{
-    height: 1000px;
+    height: auto;
     background-image: url("../img/bgback1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -175,7 +175,14 @@ header>.navbar{
 }
 /* //follwdetails */
 .flowdetail{
-    background-color: rgb(234, 118, 180) ;
+    background-image: url("../img/ab1.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.flowdetailcolor{
+  background-color: rgba(230, 164, 199, 0.826);
+  /* background: transparent; */
 }
 .countericon{
     height:70px;
@@ -299,4 +306,107 @@ header>.navbar{
 .aicons{
     border-radius: 100px;
     background-color: rgb(234, 118, 180);
+}
+/* //blog */
+.blog{
+    background-color: rgb(231, 231, 231);
+}
+.ourblog{
+    color:rgb(221, 119, 173);
+    font-size: 20px;
+    font-family: 'Caveat', cursive; 
+}
+.blog h2{
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 900;
+}
+.btn-custom{
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #c5c4c4;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.btn-custom .fa-chevron-right {
+    color: rgb(234, 118, 180);
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 22px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+ .blogdate{
+    position: absolute;
+    top:360px;
+    left:40px;
+    background: rgb(234, 118, 180);
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 150px;
+    -webkit-box-shadow: 0px 10px 22px -16px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 10px 22px -16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 22px -16px rgba(0, 0, 0, 0.15);
+}
+.blogdate p a{
+    color: #fbfbfb;
+    font-size:12px;
+}
+.bloginfo{
+    color: rgb(167, 166, 166);
+}
+.bloghead:hover{
+  color: rgb(234, 118, 180);
+}
+.btn-custom .fa-chevron-right:hover{
+    color: rgb(255, 255, 255);
+}
+.btn-custom:hover{
+    background: rgb(234, 118, 180);
+}
+.footer{
+    padding-top:85px;
+    font-size: 16px;
+    padding: 6em 0 0 0;
+    background: #141b25;
+    color: rgba(255, 255, 255, 0.9);
+}
+.yogafooterhead:hover{
+    color: rgb(234, 118, 180);
+}
+.footer .list li a{
+    height:30px ;
+    width: 30px;
+    background-color:rgb(234, 118, 180) ;
+    border-radius: 100px;
+}
+
+.footer li{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.meta a{
+    color: rgb(234, 118, 180);
+}
+
+.footertext a:hover{
+color:rgb(234, 118, 180)
+}
+.lista li:hover{
+   color:rgb(234, 118, 180)
+}
+
+.quesicon{
+    color:rgb(234, 118, 180)
 }
