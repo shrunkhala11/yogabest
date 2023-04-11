@@ -1,0 +1,11 @@
+.owner{
+    color: rgb(158, 158, 158);
+}
+#home{
+    width:100%;
+    height:700px;
+    color:white;
+    background: url('../img/aboutback.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}

@@ -1,0 +1,65 @@
+#home{
+    width:100%;
+    height:700px;
+    color:white;
+    background: url('../img/aboutback.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.iconbox{
+   width: 60px;
+   height: 60px;
+   border-radius: 100px;
+   background: rgb(234, 118, 180);
+}
+.fa{
+    color:white;
+    font-size:19px;
+}
+.text p{
+    font-size:12px;
+    color:rgb(156, 156, 156);
+}
+.text .a{
+    font-size:12px;
+    text-decoration: none;
+    color:rgb(234, 118, 180);
+
+}
+.subject{
+    width:490px;
+}
+input{
+    border:none;
+    border-bottom: 1px solid grey ;
+}
+textarea{
+    border:none;
+    border-bottom: 1px solid grey ;
+}
+label{
+    color:rgb(234, 118, 180);
+}
+.btn{
+   background-color:rgb(234, 118, 180) ;
+   color:white;
+}
+.col-12{
+    padding-left:130px;
+   }
+@media (max-width:1024px){
+    .col-12{
+     padding-left:90px;
+    }
+ }
+@media (max-width:991px){
+    .col-12{
+     padding-left:45px;
+    }
+ }
+@media (max-width:767px){
+   .col-12{
+    padding-left:100px;
+   }
+}
+
